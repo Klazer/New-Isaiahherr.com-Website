@@ -1,0 +1,62 @@
+#header {
+  padding-top: 30px;
+  min-height: 600px;
+  border-bottom: #ffffff 3px solid;
+  background: url(Sand_Dune.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.typedContainer {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.particlesCanva {
+  position: absolute;
+  opacity: 0.6;
+}
+
+.socialMedia {
+  position: relative;
+  min-width: 20em;
+  width: 100%;
+  text-align: right;
+  padding-right: 0.8em;
+  padding-bottom: 0.3em;
+  font-size: 2.4em;
+  transform: translate(0, 590%);
+}
+
+.linkedin:hover {
+  color: #225aad;
+}
+
+.git:hover {
+  color: #3e4044;
+}
+
+@media (max-width: 768px) {
+  .socialMedia {
+    text-align: center;
+    padding-right: 0em;
+    margin-left: 0em;
+    min-width: 10em;
+  }
+}

@@ -1,0 +1,100 @@
+.Bio {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.Bio h1 {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+article#rightSide {
+  float: right;
+  width: 70%;
+  padding-bottom: 5em;
+}
+
+#leftSide {
+  flex-grow: 1;
+  text-align: left;
+  flex-basis: 30%;
+}
+
+#brief span {
+  display: block;
+  margin-bottom: 1em;
+}
+#brief span p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 3em;
+  text-align: right;
+  display: block;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  #brief {
+    display: none;
+  }
+
+  article#rightSide {
+    width: 100%;
+    padding-bottom: 5em;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

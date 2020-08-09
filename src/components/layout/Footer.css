@@ -1,0 +1,21 @@
+#Footer {
+  background: #1f1d1d;
+  float: right;
+  color: white;
+  width: 100%;
+  text-align: right;
+  vertical-align: middle;
+  position: relative; /*Have position be relative so particles don't overlap*/
+}
+
+#FooterSpace {
+  background: #252323;
+  float: right;
+  color: white;
+  width: 100%;
+  text-align: right;
+  vertical-align: middle;
+  padding: 1em;
+  font-size: 0.9em;
+  position: relative; /*Have position be relative so particles don't overlap*/
+}

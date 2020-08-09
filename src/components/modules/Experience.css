@@ -1,0 +1,14 @@
+#Resume h2 {
+  padding-top: 3em;
+  text-align: center;
+}
+
+#resumeButton {
+  margin: 10px 0 0 45%;
+  padding: 10px;
+  background-color: black;
+}
+
+#resumeButton:hover {
+  color: #b6b3b3;
+}

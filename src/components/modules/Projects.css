@@ -1,0 +1,45 @@
+h1 {
+  padding-top: 2em;
+  text-align: center;
+}
+
+#Projects {
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.Info {
+  padding-top: 3rem;
+  float: left;
+}
+.badges {
+  padding-left: 1rem;
+}
+
+.gitButton {
+  float: right;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.gitButton:hover {
+  color: #b6b3b3;
+}
+
+.Info img {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-bottom: 5em;
+}
+
+.Info h2 {
+  text-align: left;
+}
+
+.Info p {
+  text-align: left;
+  margin-left: auto;
+}

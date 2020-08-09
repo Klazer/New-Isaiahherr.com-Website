@@ -1,0 +1,33 @@
+#contactMe {
+  background: #252323;
+}
+
+.formLabel {
+  color: white;
+}
+
+#contactMe h1 {
+  color: white;
+}
+
+#contactMe p {
+  color: white;
+}
+
+#form {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.submitButton {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fdfdfd;
+}
+
+.submitButton:hover {
+  color: #b6b3b3;
+}
