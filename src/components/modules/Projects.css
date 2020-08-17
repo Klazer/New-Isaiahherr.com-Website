@@ -43,3 +43,9 @@ h1 {
   text-align: left;
   margin-left: auto;
 }
+
+@media only screen and (max-width: 1360px) {
+  .gitButton {
+    margin: 10px 0 10px 0;
+  }
+}

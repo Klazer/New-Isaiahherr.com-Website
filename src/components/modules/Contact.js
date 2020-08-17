@@ -5,7 +5,7 @@ import "./Contact.css";
 
 export const Contact = () => {
   return (
-    <section id="contactMe">
+    <section id="Contact">
       <h1>Contact Me</h1>
       <div id="form">
         <p>

@@ -104,115 +104,129 @@ const useStyles = makeStyles((theme) => ({
 export const Experience = () => {
   const classes = useStyles();
   return (
-    <Box component="header" className="container">
-      <Typography variant="h4" align="center" className={classes.heading}>
-        working experience
-      </Typography>
-      <Box component="div" className={classes.timeLine}>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2016-2017
+    <section id="Experience">
+      <Box component="header" className="container">
+        <Typography variant="h4" align="center" className={classes.heading}>
+          work experience
         </Typography>
-        <Box component="div" className={classes.timeLineItem}>
+        <Box component="div" className={classes.timeLine}>
           <Typography
-            variant="h5"
-            aligh="center"
-            className={classes.subHeading}
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            Fairview IT Intern
+            2016-2017
           </Typography>
-          <Typography variant="body1" aligh="center" style={{ color: "grey" }}>
-            Genesys Works
-          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              Fairview IT Intern
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "grey" }}
+            >
+              Genesys Works
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "black" }}
+            >
+              An internship where I worked at Fairview IT through the Genesys
+              Works Program. In this internship, I primarily worked as a first
+              tier helpdesk representative. I was tasked with receiving phone
+              calls from users both from Fairview Clinics/Hospitals to the
+              University of Minnesota Clinics. At this internship, I dealt with
+              over 1000 incidents and learned many skills such as adapting,
+              troubleshooting, and resolving issues within a small timeframe.
+            </Typography>
+          </Box>
           <Typography
-            variant="subtitle1"
-            aligh="center"
-            style={{ color: "black" }}
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            An internship where I worked at Fairview IT through the Genesys
-            Works Program. In this internship, I primarily worked as a first
-            tier helpdesk representative. I was tasked with receiving phone
-            calls from users both from Fairview Clinics/Hospitals to the
-            University of Minnesota Clinics. At this internship, I dealt with
-            over 1000 incidents and learned many skills such as adapting,
-            troubleshooting, and resolving issues within a small timeframe.
+            2018
           </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              Student Tech Services
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "grey" }}
+            >
+              University of Minnesota Office of Information Technology
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "black" }}
+            >
+              At this position, I worked as a tier one Service Desk
+              Representative for the University of Minneosta Office of
+              Technology. At this position, I worked primarily in answering
+              phone calls from anyone that was associated with the University of
+              Minnesota such as professors, students, and faculty. Problems that
+              I typically encountered were password reset, troubleshooting
+              hardware issues, etc.
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2020
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              Computer Center Coordinator
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "grey" }}
+            >
+              University of Minnesota Housing
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "black" }}
+            >
+              At this position, I was tasked with resolving any hardware issues
+              or software issues experienced by residents and faculty in Roy
+              Wilkins Hall. I held office hours every single week in order to
+              allow the opportunity for anyone to come to me with any software
+              or hardware related issues.
+            </Typography>
+          </Box>
         </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2018
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            aligh="center"
-            className={classes.subHeading}
+
+        <div id="Resume">
+          <h2>Interested in hiring me? Click here to view my Resume!</h2>
+
+          <Button
+            id="resumeButton"
+            href="https://drive.google.com/file/d/1_OsoLzfXA7Oieia7Wup8IXeEvzitqMPA/view"
           >
-            Student Tech Services
-          </Typography>
-          <Typography variant="body1" aligh="center" style={{ color: "grey" }}>
-            University of Minnesota Office of Information Technology
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            aligh="center"
-            style={{ color: "black" }}
-          >
-            At this position, I worked as a tier one Service Desk Representative
-            for the University of Minneosta Office of Technology. At this
-            position, I worked primarily in answering phone calls from anyone
-            that was associated with the University of Minnesota such as
-            professors, students, and faculty. Problems that I typically
-            encountered were password reset, troubleshooting hardware issues,
-            etc.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2020
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            aligh="center"
-            className={classes.subHeading}
-          >
-            Computer Center Coordinator
-          </Typography>
-          <Typography variant="body1" aligh="center" style={{ color: "grey" }}>
-            University of Minnesota Housing
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            aligh="center"
-            style={{ color: "black" }}
-          >
-            At this position, I was tasked with resolving any hardware issues or
-            software issues experienced by residents and faculty in Roy Wilkins
-            Hall. I held office hours every single week in order to allow the
-            opportunity for anyone to come to me with any software or hardware
-            related issues.
-          </Typography>
-        </Box>
+            My Resume
+          </Button>
+        </div>
       </Box>
-
-      <div id="Resume">
-        <h2>Interested in hiring me? Click here to view my Resume!</h2>
-
-        <Button
-          id="resumeButton"
-          href="https://drive.google.com/file/d/1_OsoLzfXA7Oieia7Wup8IXeEvzitqMPA/view"
-        >
-          My Resume
-        </Button>
-      </div>
-    </Box>
+    </section>
   );
 };
 
