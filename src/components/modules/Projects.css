@@ -18,13 +18,14 @@ h1 {
   padding-left: 1rem;
 }
 
-.gitButton {
-  float: right;
+.Buttons {
   background-color: #000000;
   color: #ffffff;
+  margin: 0 5px;
+  float: right;
 }
 
-.gitButton:hover {
+.Buttons:hover {
   color: #b6b3b3;
 }
 

@@ -220,7 +220,7 @@ export const Experience = () => {
 
           <Button
             id="resumeButton"
-            href="https://drive.google.com/file/d/1_OsoLzfXA7Oieia7Wup8IXeEvzitqMPA/view"
+            href="https://drive.google.com/file/d/1QlzLLvJep7rmDHMMmvsfGUMi4YsDZKXw/view?usp=sharing"
           >
             My Resume
           </Button>
