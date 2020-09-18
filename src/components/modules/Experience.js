@@ -114,7 +114,7 @@ export const Experience = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2016-2017
+            2020
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -122,27 +122,25 @@ export const Experience = () => {
               aligh="center"
               className={classes.subHeading}
             >
-              Fairview IT Intern
+              Computer Center Coordinator
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: "grey" }}
             >
-              Genesys Works
+              University of Minnesota Housing
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
               style={{ color: "black" }}
             >
-              An internship where I worked at Fairview IT through the Genesys
-              Works Program. In this internship, I primarily worked as a first
-              tier helpdesk representative. I was tasked with receiving phone
-              calls from users both from Fairview Clinics/Hospitals to the
-              University of Minnesota Clinics. At this internship, I dealt with
-              over 1000 incidents and learned many skills such as adapting,
-              troubleshooting, and resolving issues within a small timeframe.
+              At this position, I was tasked with resolving any hardware issues
+              or software issues experienced by residents and faculty in Roy
+              Wilkins Hall. I held office hours every single week in order to
+              allow the opportunity for anyone to come to me with any software
+              or hardware related issues.
             </Typography>
           </Box>
           <Typography
@@ -184,7 +182,7 @@ export const Experience = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2020
+            2016-2017
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -192,25 +190,27 @@ export const Experience = () => {
               aligh="center"
               className={classes.subHeading}
             >
-              Computer Center Coordinator
+              Fairview IT Intern
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: "grey" }}
             >
-              University of Minnesota Housing
+              Genesys Works
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
               style={{ color: "black" }}
             >
-              At this position, I was tasked with resolving any hardware issues
-              or software issues experienced by residents and faculty in Roy
-              Wilkins Hall. I held office hours every single week in order to
-              allow the opportunity for anyone to come to me with any software
-              or hardware related issues.
+              An internship where I worked at Fairview IT through the Genesys
+              Works Program. In this internship, I primarily worked as a first
+              tier helpdesk representative. I was tasked with receiving phone
+              calls from users both from Fairview Clinics/Hospitals to the
+              University of Minnesota Clinics. At this internship, I dealt with
+              over 1000 incidents and learned many skills such as adapting,
+              troubleshooting, and resolving issues within a small timeframe.
             </Typography>
           </Box>
         </Box>

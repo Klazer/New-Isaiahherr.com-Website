@@ -90,7 +90,7 @@ export const Header = () => {
           </span>
         </a>
         <a
-          href="https://www.linkedin.com/in/isaiah-herr-845a33164/"
+          href="https://www.linkedin.com/in/isaiahherr"
           rel="noopener noreferrer"
           target="_blank"
         >

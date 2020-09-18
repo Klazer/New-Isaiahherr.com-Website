@@ -17,9 +17,11 @@ export const About = () => {
           <p>
             I'm a current <i>senior</i> studying Computer Science at the
             University of Minnesota Twin-Cities. I'm currently located at Lake
-            Elmo, Minnesota and have many skills in IT and am currently bulding
-            my skills with software development. I am very eager to learn and am
-            always pushing myself to learn new tools and technologies as I
+            Elmo, Minnesota and have many skills in IT due to my previous
+            positions. I am currently focusing on software development while
+            continuing to learn new tools and concepts either through my classes
+            at University or my own personal projects. I am very eager to learn
+            and always pushing myself to learn new tools and technologies as I
             continue through my career!
           </p>
           <h2>My Skills</h2>
