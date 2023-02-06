@@ -1,7 +1,7 @@
 
 ## Isaiah Herr Website
 
-### **NOTE: This website has been developed by me and is not to be copied or reuse without permission or without contacting me.
+### **NOTE: This website has been developed by me and is not to be copied or reuse without permission or without contacting me.**
 
 ### **Info**
 
